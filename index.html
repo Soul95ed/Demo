@@ -1,1 +1,47 @@
-<div> Hey </div>
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>test site</title>
+    </head>
+
+    <body>
+        <H1>Html forms</H1>
+
+        <form> 
+            <label for="username">enter username:</label>
+            <input type="text" id="username" placeholder="username" required> 
+          <!--  (input type="text") adds a text box, where the user can type in "text" as decleared in (type="text") -->
+          <!--(id="username") give the fucntion an identity the can used to spesify -->
+          <hr>
+            <label for="email">enter email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+          <hr>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="password" required>
+          <hr>
+        <p>select your gender</p>
+            <input type="radio" name="gender" value="male">Male<br><br>
+            <input type="radio" name="gender" value="female">female
+          <hr>
+        <p>select a security question </p>
+            <label for="question" >security question</label>
+            <select name="question" id="question">
+                <option value="Q1">A</option>
+                <option value="Q2">B</option>
+            </select>
+          <hr> 
+            <label for="bio">Your Bio</label><br><br>
+            <textarea name="bio" id="bio" cols"30" rows"10" placeholder="about you..."></textarea>
+          <hr>
+            <input type="submit" value="submit">
+        
+        </form>
+    </body>
+
+
+
+
+
+
+
+ </html>
